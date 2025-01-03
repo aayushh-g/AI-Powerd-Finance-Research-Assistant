@@ -185,7 +185,7 @@ def main():
                         st.subheader("Sources")
                         st.write(summary_result["sources"])
 
-    # Query section
+    # Query Section
     st.header("Ask Questions")
     query = st.text_input("Enter your question")
 
