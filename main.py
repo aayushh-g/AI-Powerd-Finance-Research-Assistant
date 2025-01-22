@@ -115,13 +115,7 @@ class SchemeResearchTool:
         if not self.vectorstore:
             return None
             
-        summary_prompt = """Based on the article, provide a comprehensive summary covering:
-        1. Scheme Benefits
-        2. Scheme Application Process
-        3. Eligibility
-        4. Documents required
-        
-        Please structure the response clearly with headings for each section."""
+        summary_prompt = """Summarize the provided document, focusing on key insights and outcomes. For financial reports, highlight revenue, expenses, profit margins, and financial trends. For case studies, summarize the problem, proposed solutions, implementation, and measurable impacts. Ensure the summary is concise, professional, and highlights actionable insights."""
         
         try:
             return self.get_answer(summary_prompt)
