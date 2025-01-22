@@ -141,8 +141,8 @@ class SchemeResearchTool:
             return None
 
 def main():
-    st.set_page_config(page_title="Scheme Research Tool", layout="wide")
-    st.title("Scheme Research Tool")
+    st.set_page_config(page_title="Finance Research Assistant", layout="wide")
+    st.title("Finance Research Assistant")
 
     # Initialize the tool
     tool = SchemeResearchTool()
